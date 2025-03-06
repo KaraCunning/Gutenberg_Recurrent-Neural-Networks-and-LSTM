@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/bbee6c75-6a91-4a5d-8e70-8667886ffc12)
+
+
 ![image](https://github.com/user-attachments/assets/d6ebc699-d787-4d08-a167-ce3496806a7f)
 
 # Recurrent Neural Networks and Long Short Term Memory (LSTM)
