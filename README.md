@@ -3,16 +3,27 @@
 
 ![image](https://github.com/user-attachments/assets/bbee6c75-6a91-4a5d-8e70-8667886ffc12)
 
+# Shakespeare Sonnet Generator 🎭✍️  
 
-# Recurrent Neural Networks and Long Short Term Memory (LSTM)
+A deep learning project using LSTMs to generate Shakespearean-style sonnets.  
 
-## The Goal is to build a sequence model with the 
-**Gutenberg Shakespeare Sonnet data**
+## Overview  
+This project leverages **TensorFlow/Keras** and **LSTM-based sequence modeling** to generate text resembling Shakespeare's sonnets.  
 
-### Model to predict the most likely next character and sonnet
-Developed a deep learning model to generate Shakespearean-style sonnets using an LSTM-based sequence model.
-Collected and preprocessed text data from Project Gutenberg, applying data cleaning techniques such as punctuation removal, case normalization, and sequence tokenization.
-Utilized TensorFlow/Keras to build and train a Bidirectional LSTM model for next-character prediction.
-Engineered training data by converting sonnets into character sequences and applying one-hot encoding.
-Performed exploratory data analysis using Pandas, NumPy, and Matplotlib to determine optimal sequence lengths.
-Improved model performance with embedding layers and dropout regularization to mitigate overfitting.
+## Features  
+- 📜 **Dataset:** Collected and preprocessed Shakespearean sonnets from Project Gutenberg.  
+- 🔍 **Data Cleaning:** Removed punctuation, normalized case, and tokenized sequences.  
+- 🧠 **Model Architecture:** Built a **Bidirectional LSTM** model for next-character prediction.  
+- 🔢 **Data Engineering:** Converted sonnets into character sequences and applied **one-hot encoding**.  
+- 📊 **EDA & Optimization:** Explored data using **Pandas, NumPy, and Matplotlib** to determine optimal sequence lengths.  
+- 🚀 **Performance Enhancements:** Implemented **embedding layers and dropout regularization** to mitigate overfitting.  
+
+## Tech Stack  
+- **Python**, **TensorFlow/Keras**, **LSTMs**, **NLP**  
+- **Pandas**, **NumPy**, **Matplotlib**  
+- **Data Cleaning**, **Sequence Modeling**, **One-hot Encoding**
+- ## Installation & Usage  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/shakespeare-sonnet-generator.git
+   cd shakespeare-sonnet-generator
